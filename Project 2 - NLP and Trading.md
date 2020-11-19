@@ -48,7 +48,8 @@ To thoroughly examine our idea, we would need to do the following:
     >Contains the Webscraper/Sentiment Analysis
 2. NLP-VADER.ipynb
     >Contains the functions that tokenize headlines, find top tokens, and perform NER.
-3. [Lexalytics](https://www.lexalytics.com/)
+3. Lexalytics
+    > [Lexalytics](https://www.lexalytics.com/)
 3.  ML Models (Folder) > Logistic Regression Models (Folder)> LRModel.ipynb
     >Contains the Logistic Regression Model
 4. Ghazi's Notebook
