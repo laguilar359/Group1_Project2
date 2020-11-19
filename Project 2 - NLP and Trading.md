@@ -5,7 +5,7 @@ We opted to use NLP to evaluate financial headlines, and attempted to model mark
 
 **Dependencies/Import information is located at the bottom of this guide.**
 
-# II. Summary of Findings
+# I. Summary of Findings
 
 We determined that using Natural Language Processing - specifically sentiment of financial articless to analyze stock movement/make predictions of stock movement did generate a good model, indicating a trading strategy based on the analysis could be successful.
 
@@ -24,26 +24,26 @@ We found our Neural Net Model to be most efficient, based on accuracy scores.
 ## **NN Accuarcy Visualized**
 ![NN Accuracy Visualized](Images/NNAccuracyBar.PNG)
 
-# III. Questions Answered
+# II. Questions Answered
 1. Can you use NLP to create a valid trading model?
 > Yes
 2. Is news sentiment a good indicator to use for trading
 > Likely. More work is needed, but our model accuracy was high enough to suggest it's worth exploring.
 
-# IV. Questions Left to Answer
+# III. Questions Left to Answer
 1. What makes the model more efficient?
 > Would using 'tokens' or 'entities' to analyze headlines lead to a more efficient model?
 > Could other trading strategies be developed using 'tokens' or 'entities'?
 2. What would make the model more accurate?
 > Would adding additional analysis EX: Click rates, number of views, etc. make the model more accurate?
 
-# V. Next Steps
+# IV. Next Steps
 To thoroughly examine our idea, we would need to do the following:
 
 1. Backtesting
 2. Creating a trading algorithm
 
-# VI. Notebooks Demonstrated in Presentation
+# V. Notebooks Demonstrated in Presentation
 1. Sentiment - Copy.ipynb
     >Contains the Webscraper/Sentiment Analysis
 2. NLP-VADER.ipynb
@@ -53,7 +53,7 @@ To thoroughly examine our idea, we would need to do the following:
 4. Ghazi's Notebook
     >Contains the Nueral Network and Support Vector Machines models
 
-# V. Dependencies
+# VI. Dependencies
  ### *Web Scraping Code*
  
 * #!pip install bs4
