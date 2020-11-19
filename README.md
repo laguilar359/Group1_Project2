@@ -1,5 +1,5 @@
 # Group1_Project2
-# Stock Predction Tool
+# Stock Prediction Tool
 With this project we sought to evaluate the efficiency of models built using Natural Language Processing. 
 
 We opted to use NLP to evaluate financial headlines, and attempted to model market performance based on their calculated sentiment score.
@@ -22,7 +22,7 @@ We found our Neural Net Model to be most efficient, based on accuracy scores.
 ![Support Vector Machines Accuracy](Images/SVMAccuracy.PNG)
 ## **SVM vs. NN Accuracy Visualized**
 ![SVM vs. NN Accuracy](Images/NNvsSVMvisualized.PNG)
-## **NN Accuarcy Visualized**
+## **NN Accuracy Visualized**
 ![NN Accuracy Visualized](Images/NNAccuracyBar.PNG)
 
 # II. Questions Answered
