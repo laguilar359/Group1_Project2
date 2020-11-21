@@ -53,7 +53,7 @@ To thoroughly examine our idea, we would need to do the following:
     > [Lexalytics](https://www.lexalytics.com/)
 3.  ML Models (Folder) > Logistic Regression Models (Folder)> LRModel.ipynb
     >Contains the Logistic Regression Model
-4. Sentiment-Copy1
+4. True-ML
     >Contains the Nueral Network and Support Vector Machines models
 
 # VI. Dependencies
@@ -118,19 +118,19 @@ To thoroughly examine our idea, we would need to do the following:
 * get_ipython().run_line_magic("matplotlib", "inline")
 * %matplotlib inline
 
-### Sentiment-Copy1
+### True-ML
 * import os
+* import hvplot.pandas
 * from pathlib import Path
 * import pandas as pd
+* import numpy as np
+* import matplotlib.pyplot as plt
 * from datetime import datetime, timedelta
 * from dotenv import load_dotenv
 * import alpaca_trade_api as tradeapi
-* import numpy as np
-
-* from selenium import webdriver
-* from splinter import Browser
-
-* import nltk
+* from sklearn.neighbors import KNeighborsClassifier
+import nltk
 * from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
+* import tensorflow as tf
 * get_ipython().run_line_magic("matplotlib", "inline")
+* %matplotlib inline
